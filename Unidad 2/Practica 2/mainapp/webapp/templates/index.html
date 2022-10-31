@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistema Gestor de Biblioteca</h1>
+    <div>
+        <h2>Sucursales</h2>
+        <a href="nueva_sucursal">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for sucursal in biblioteca%}
+                    <tr>
+                        <td>{{sucursal.id}}</td>
+                        <td>{{sucursal.nombre}}</td>
+                        <td>{{sucursal.direccion}}</td>
+                        <td>{{sucursal.telefono}}</td>
+                        <td>{{sucursal.email}}</td>
+                        <td><a href="detalle_sucursal/{{sucursal.id}}">Ver detalle</a></td>
+                        <td><a href="editar_sucursal/{{sucursal.id}}">Editar sucursal</a></td>
+                        <td><a href="eliminar_sucursal/{{sucursal.id}}">Eliminar sucursal</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Autores</h2>
+        <a href="nuevo_autor">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Cantidad de Libros</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for autores in autor%}
+                    <tr>
+                        <td>{{autores.id}}</td>
+                        <td>{{autores.nombre}}</td>
+                        <td>{{autores.cantidad_libros}}</td>
+                        <td><a href="detalle_autor/{{autores.id}}">Ver detalle</a></td>
+                        <td><a href="editar_autor/{{autores.id}}">Editar autor</a></td>
+                        <td><a href="eliminar_autor/{{autores.id}}">Eliminar autor</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Libros</h2>
+        <a href="nuevo_libro">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Titulo</th>
+                    <th>Editorial</th>
+                    <th>Disponibilidad</th>
+                    <th>Autor</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for libros in libro%}
+                    <tr>
+                        <td>{{libros.id}}</td>
+                        <td>{{libros.titulo}}</td>
+                        <td>{{libros.editorial}}</td>
+                        <td>{{libros.disponibilidad}}</td>
+                        <td>{{libros.autor}}</td>
+                        <td><a href="detalle_libro/{{libros.id}}">Ver detalle</a></td>
+                        <td><a href="editar_libro/{{libros.id}}">Editar libro</a></td>
+                        <td><a href="eliminar_libro/{{libros.id}}">Eliminar libro</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Empleado</h2>
+        <a href="nuevo_empleado">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Sueldo</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for empleados in empleado%}
+                    <tr>
+                        <td>{{empleados.id}}</td>
+                        <td>{{empleados.nombre}}</td>
+                        <td>{{empleados.apellido}}</td>
+                        <td>{{empleados.sueldo}}</td>
+                        <td><a href="detalle_empleado/{{empleados.id}}">Ver detalle</a></td>
+                        <td><a href="editar_empleado/{{empleados.id}}">Editar empleado</a></td>
+                        <td><a href="eliminar_empleado/{{empleados.id}}">Eliminar empleado</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
