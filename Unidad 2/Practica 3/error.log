@@ -1,0 +1,1503 @@
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:21] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:26] "GET /menu.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:26] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:27] "GET /Persona HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:27] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:28] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:28] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:38:31] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:39:59] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:39:59] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:40:04] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:43:44] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:43:44] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:43:47] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:12] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:13] "GET /Persona HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:13] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:19] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:24] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:24] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:46:24] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:13] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:13] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:15] "GET /Persona HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:15] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:17] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:17] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 16:57:19] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+ERROR:flask_migrate:Error: Path doesn't exist: 'C:\\Users\\Myria\\Downloads\\Escuela\\7mo Semestre\\Prog. Multiparadigma\\Practica3\\migrations'.  Please use the 'init' command to create a new scripts folder.
+ERROR:flask_migrate:Error: Path doesn't exist: 'C:\\Users\\Myria\\Downloads\\Escuela\\7mo Semestre\\Prog. Multiparadigma\\Practica3\\migrations'.  Please use the 'init' command to create a new scripts folder.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:04:00] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:04:00] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:04:03] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:12:35] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:12:35] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 122, in agregar
+    personaForm.populate_obj(persona)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:12:38] "[35m[1mPOST /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:41:47] "GET /agregarAlumno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:41:48] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:41:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregarAlumno [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 91, in agregarAlumno
+    alumnoForm.populate_obj(alumno)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\form.py", line 82, in populate_obj
+    field.populate_obj(obj, name)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica 3\.venv\lib\site-packages\wtforms\fields\core.py", line 368, in populate_obj
+    setattr(obj, name, self.data)
+AttributeError: 'str' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 17:41:50] "[35m[1mPOST /agregarAlumno HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:16] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:16] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:19] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:19] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+ERROR:app:Exception on /Persona [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 77, in Persona
+    personas=Persona.query.all()
+AttributeError: 'function' object has no attribute 'query'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:38:20] "[35m[1mGET /Persona HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:47:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:58:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:58:03] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:58:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /menu [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 20:58:06] "[35m[1mGET /menu HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:00:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:00:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:01:16] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:01:16] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:01:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /menu [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:01:21] "[35m[1mGET /menu HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:05:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:05:44] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:05:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /menu [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 16, in top-level template code
+    <a href="{{url_for('Alumnos')}}">Alumno</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumnos'. Did you mean 'Alumno' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:05:47] "[35m[1mGET /menu HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 47, in inicio
+    return render_template('menu.html')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\menu.html", line 17, in top-level template code
+    <a href="{{ url_for('personas')}}">Persona</a>
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'personas'. Did you mean 'Persona' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:08:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:47] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:49] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:49] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:50] "GET /agregarAlumno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:50] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+ERROR:app:Exception on /agregarAlumno [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 111, in agregarAlumno
+    return redirect(url_for('Alumno'))
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\helpers.py", line 256, in url_for
+    return current_app.url_for(
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'Alumno'. Did you mean 'Alumnos' instead?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:09:53] "[35m[1mPOST /agregarAlumno HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:13] "GET /agregarAlumno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:13] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:18] "[32mPOST /agregarAlumno HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:18] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:18] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:23] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:27] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:27] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:29] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:29] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:30] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:30] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:31] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:31] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:32] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:32] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:33] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:11:34] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:19:57] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:19:57] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:22] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:22] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:24] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:24] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:27] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:28] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:28] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:30] "GET /agregarAlumno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:30] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:32] "[32mPOST /agregarAlumno HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:32] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:33] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:41] "GET /agregarAlumno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:41] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:44] "[32mPOST /agregarAlumno HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:44] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:22:44] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:31] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:31] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:33] "GET /Alumnos/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:33] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:36] "[32mPOST /Alumnos/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:36] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:29:36] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:02] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:02] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:03] "GET /Alumnos/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:03] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:06] "[32mPOST /Alumnos/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:06] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:39:06] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:40:14] "GET /Alumnos/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:40:14] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:40:22] "[32mPOST /Alumnos/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:40:22] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:40:22] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:54:22] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:54:22] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+ERROR:app:Exception on /Alumnos/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 63, in verAlumnos
+    return render_template('detalleAlumno.html', alumnos=alumnos)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\detalleAlumno.html", line 12, in top-level template code
+    {{alumno.id}}
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'alumno' is undefined
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:54:32] "[35m[1mGET /Alumnos/1 HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /Alumnos/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 63, in verAlumnos
+    return render_template('detalleAlumno.html', alumnos=alumnos)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\detalleAlumno.html", line 12, in top-level template code
+    {{alumno.id}}
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'alumno' is undefined
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:54:38] "[35m[1mGET /Alumnos/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:09] "GET /Alumnos/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:10] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:10] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:12] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:12] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:13] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:13] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:16] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:16] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:16] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:19] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:19] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:20] "GET /Alumnos/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:21] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:21] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:23] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:23] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:24] "[33mGET /salir HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:27] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:27] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /salir [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 124, in salir
+    session.pop('username')
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\werkzeug\datastructures.py", line 216, in pop
+    rv = super().pop(key)
+KeyError: 'username'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:30] "[35m[1mGET /salir HTTP/1.1[0m" 500 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:32] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:32] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:35] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:35] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:38] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:38] "[32mGET /menu HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:38] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:38] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:41] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:41] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:42] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:42] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:47] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:47] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:50] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:50] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:51] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:56] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:56:56] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:57:01] "[33mGET /Alumnos/eliminar6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:21] "[33mGET /Alumnos/ HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:24] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:24] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:28] "[33mGET /Alumnos/eliminar6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:34] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:39] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:41] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:41] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:43] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:43] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 21:58:44] "[33mGET /personas/eliminar3 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:27] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:27] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:28] "[33mGET /personas/eliminar3 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:28] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:28] "[33mGET /personas/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:32] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:33] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:34] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:34] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:36] "[33mGET /personas/eliminar3 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:37] "[33mGET /personas/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:00:37] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:01:42] "[32mGET /personas/eliminar/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:01:42] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:01:43] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:01:46] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:01:46] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:20] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:20] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:21] "[33mGET /personas/eliminar2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:22] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:22] "[33mGET /personas/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:38] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:38] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:39] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:39] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:40] "[33mGET /personas/eliminar2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:41] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:02:41] "[33mGET /personas/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:16] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:17] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:17] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:19] "[33mGET /personas/eliminar2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:19] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:19] "[33mGET /personas/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:32] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:32] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:34] "[32mGET /personas/eliminar/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:34] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:34] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:37] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:37] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:42] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:42] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:47] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:47] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:03:47] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:25] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:25] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:27] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:27] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:27] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:28] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:31] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:31] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:31] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:34] "[32mGET /personas/eliminar/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:34] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:34] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:35] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:35] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:37] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:37] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:44] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:44] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:44] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:46] "GET /personas/editar/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:46] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:51] "[32mPOST /personas/editar/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:51] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:51] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:54] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:54] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /personas/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 76, in verPersona
+    return render_template('detalle.html', personas=personas)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\templates\detalle.html", line 12, in top-level template code
+    {{persona.id}}
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'persona' is undefined
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:04:57] "[35m[1mGET /personas/6 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:05:37] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:05:37] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:05:39] "[33mGET /personas6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:05:39] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:05:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:40] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:41] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:41] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:43] "GET /personas/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:46] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:46] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:47] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:47] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:48] "GET /personas/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:49] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:49] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:50] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:50] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:51] "GET /personas/editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:52] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:56] "[32mPOST /personas/editar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:56] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:06:56] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:28] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:28] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:37] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:38] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:39] "GET /personas/editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:39] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:42] "[32mPOST /personas/editar/1 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:42] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:43] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:48] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:48] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:48] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:56] "[32mGET /menu HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:56] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:07:56] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:01] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:01] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:03] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:03] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:12] "[32mGET /Alumnos/eliminar/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:12] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:13] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:51] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:51] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:53] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:53] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:55] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:55] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:57] "[32mGET /Alumnos/eliminar/5 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:57] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:08:57] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:00] "[32mGET /Alumnos/eliminar/4 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:00] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:00] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:01] "[32mGET /Alumnos/eliminar/3 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:01] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:01] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:03] "[32mGET /Alumnos/eliminar/2 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:03] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:03] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:04] "GET /Alumnos/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:04] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:10] "[32mPOST /Alumnos/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:10] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:10] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:12] "GET /Alumnos/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:13] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:13] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:17] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:17] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:19] "[33mGET /Alumnos/editar7 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:19] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:09:19] "[33mGET /Alumnos/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:09] "[33mGET /Alumnos/editar7 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:09] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:09] "[33mGET /Alumnos/style.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:14] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:14] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:16] "GET /Alumnos/editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:16] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:20] "[32mPOST /Alumnos/editar/1 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:20] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:20] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:26] "GET /Alumnos/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:27] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:27] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:28] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:29] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:36] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:36] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:37] "[32mGET /menu HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:37] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:41] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:41] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:45] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:45] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:47] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:47] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:49] "GET /Alumnos/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:10:49] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:02] "[32mPOST /Alumnos/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:02] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:02] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:05] "GET /Alumnos/editar/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:05] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:08] "[32mPOST /Alumnos/editar/9 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:08] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:09] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:13] "[32mGET /Alumnos/eliminar/1 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:13] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:13] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:17] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:17] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:18] "[32mGET /menu HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:18] "[33mGET /static/estilos/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:21] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:21] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:22] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:22] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:23] "[32mGET /personas/eliminar/1 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:24] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:24] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:26] "GET /personas/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:26] "[33mGET /static/css/Agregar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:28] "[32mPOST /personas/agregar HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:28] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:28] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:30] "GET /personas/editar/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:30] "[33mGET /static/css/editar.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:33] "[32mPOST /personas/editar/7 HTTP/1.1[0m" 302 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:33] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:33] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:38] "GET /personas/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:39] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:39] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:51] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:11:51] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:43] "GET /static/estilos/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:49] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:49] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:52] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:32:52] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:40] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:40] "GET /static/estilos/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:51] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:55] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:55] "[36mGET /static/estilos/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:57] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:57] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:59] "GET /personas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:34:59] "[36mGET /static/estilos/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:00] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:00] "GET /static/estilos/404.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:03] "[32mGET /menu HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:04] "[36mGET /static/estilos/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:06] "GET /menu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:06] "[33mGET /static/css/404.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:07] "GET /Alumnos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:35:07] "[33mGET /static/css/index.css HTTP/1.1[0m" 404 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:38:28] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:41:06] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:41:15] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:Michi
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:41:31] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:41:43] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:41:47] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:42:57] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi(id=info["ID"], nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'ID'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:44:46] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+DEBUG:app:
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:44:51] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:
+ERROR:app:Exception on /michi/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 100, in getMichi
+    app.logger("TOKEN + token")
+TypeError: 'Logger' object is not callable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:46:30] "[35m[1mGET /michi/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:52:16] "[33mGET /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:52:57] "[33mGET /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:53:06] "[33mGET /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:53:51] "[31m[1mPOST /michi/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:53:59] "[33mGET /michi%5C HTTP/1.1[0m" 404 -
+DEBUG:app:
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:54:00] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 22:58:28] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:02:49] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:03:10] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi(id=info["ID"], nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'Raza'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:03:57] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi(id=info["ID"], nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'Raza'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:03:59] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi(id=info["ID"], nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'Raza'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:04:10] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:04:35] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [GET]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 86, in getMichis
+    return jsonify(michis=Michi.serialize_list(michis))
+AttributeError: type object 'Michi' has no attribute 'serialize_list'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:04:46] "[35m[1mGET /michi HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:07:10] "GET /michi HTTP/1.1" 200 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi( nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'ID'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:09:45] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi [POST]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 89, in getMichis
+    michis = Michi( nombre=info["Nombre"], raza=info["Raza"],
+KeyError: 'ID'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:09:54] "[35m[1mPOST /michi HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:10:09] "POST /michi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:14:31] "[31m[1mPOST /michi/1 HTTP/1.1[0m" 405 -
+DEBUG:app:None
+ERROR:app:Exception on /michi/1 [PATCH]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\app.py", line 108, in getMichi
+    michi.color = info["Color"]
+KeyError: 'Color'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:15:07] "[35m[1mPATCH /michi/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:16:02] "PATCH /michi/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+ERROR:app:Exception on /michi/1 [PATCH]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a BinaryExpression.
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:16:51] "[35m[1mPATCH /michi/1 HTTP/1.1[0m" 500 -
+DEBUG:app:None
+ERROR:app:Exception on /michi/1 [PATCH]
+Traceback (most recent call last):
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\Myria\Downloads\Escuela\7mo Semestre\Prog. Multiparadigma\Practica3\.venv\lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a BinaryExpression.
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:17:53] "[35m[1mPATCH /michi/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2022 23:18:12] "PATCH /michi/1 HTTP/1.1" 200 -
