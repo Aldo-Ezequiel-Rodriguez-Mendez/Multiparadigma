@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='estilos/404.css')}}">
+    <meta charset="utf-8">
+    <title>404 Error Page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="error-page">
+        <div class="content">
+            <h2 class="header" data-text="404">404</h2>
+            <h4 data-text="Página no encontrada :("></h4>
+            <p>
+                <div>{{error}}</div>
+            </p>
+            <div class="btns">
+                <a href="{{url_for('inicio')}}">Volver al login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

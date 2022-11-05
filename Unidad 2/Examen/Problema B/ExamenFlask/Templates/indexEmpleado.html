@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='estilos/index.css')}}"
+
+   
+</head>
+<body>
+    <h1>Listado de Empleados</h1>
+    <div>
+        <a href="{{url_for('agregarEmpleado')}}">Agregar</a>
+        <a href="{{ url_for('salir')}}">Salir</a>
+    </div>
+    
+    <div>
+        <table id = "empleados" border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Cargo</th>
+                    <th>Departamento</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for empleado in empleados %}
+                <tr>
+                    <td>{{empleado.id}}</td>
+                    <td>{{empleado.nombre}}</td>
+                    <td>{{empleado.cargo}}</td>
+                    <td>{{empleado.departamento}}</td>
+                    <td><a href="/empleados/{{empleado.id}}">Ver</a></td>
+                    <td><a href="/empleados/editar/{{empleado.id}}">Editar</a></td>
+                    <td><a href="/empleados/eliminar/{{empleado.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+ 
+</body>
+</html>
+   

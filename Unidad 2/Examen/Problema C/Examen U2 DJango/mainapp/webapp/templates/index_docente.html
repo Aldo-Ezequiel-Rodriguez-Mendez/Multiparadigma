@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Docentes</h2>
+        <a href="nuevo_docente">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Materia</th>
+                    <th>Carrera</th>
+                    <th>Domicilio</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for d in docente%}
+                    <tr>
+                        <td>{{d.id}}</td>
+                        <td>{{d.nombre}}</td>
+                        <td>{{d.materia}}</td>
+                        <td>{{d.carrera}}</td>
+                        <td>{{d.domicilio}}</td>
+                        <td><a href="detalle_docente/{{d.id}}">Ver detalle</a></td>
+                        <td><a href="editar_docente/{{d.id}}">Editar docente</a></td>
+                        <td><a href="eliminar_docente/{{d.id}}">Eliminar docente</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='estilos/index.css')}}"
+
+   
+</head>
+<body>
+    <h1>Listado de profesores</h1>
+    <div>
+        <a href="{{url_for('agregarProfesor')}}">Agregar</a>
+        <a href="{{ url_for('salir')}}">Salir</a>
+    </div>
+    
+    <div>
+        <table id = "profesores" border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Materia</th>
+                    <th>Escuela</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for profesor in profesores %}
+                <tr>
+                    <td>{{profesor.id}}</td>
+                    <td>{{profesor.nombre}}</td>
+                    <td>{{profesor.materia}}</td>
+                    <td>{{profesor.escuela}}</td>
+                    <td><a href="/Profesores/{{profesor.id}}">Ver</a></td>
+                    <td><a href="/Profesores/editar/{{profesor.id}}">Editar</a></td>
+                    <td><a href="/Profesores/eliminar/{{profesor.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+ 
+</body>
+</html>
+   

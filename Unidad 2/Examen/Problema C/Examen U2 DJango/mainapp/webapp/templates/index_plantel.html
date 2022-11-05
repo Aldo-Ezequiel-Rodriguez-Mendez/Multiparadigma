@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Plantel</h2>
+        <a href="nuevo_plantel">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre de Institucion</th>
+                    <th>Campus</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in plantel%}
+                    <tr>
+                        <td>{{p.id}}</td>
+                        <td>{{p.nombre_institucion}}</td>
+                        <td>{{p.campus}}</td>
+                        <td><a href="detalle_plantel/{{p.id}}">Ver detalle</a></td>
+                        <td><a href="editar_plantel/{{p.id}}">Editar plantel</a></td>
+                        <td><a href="eliminar_plantel/{{p.id}}">Eliminar plantel</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

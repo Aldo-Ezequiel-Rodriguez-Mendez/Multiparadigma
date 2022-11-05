@@ -1,0 +1,14 @@
+py -3 -m venv .venv 
+
+.venv/Scripts/activate 
+
+pip install flask 
+#pip install flask-sqlalchemy
+#pip install flask-wtf
+#pip install Flask-Migrate
+#pip install psycopg2
+#flask db init --crear carpetas dentro del proyecto 
+#flask db migrate -- migraciones  
+#flask db upgrade -- para crear las tablas  
+#flask db stamp head 8
+

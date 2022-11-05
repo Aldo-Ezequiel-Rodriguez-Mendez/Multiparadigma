@@ -1,0 +1,592 @@
+10:20:05 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:20:05 AM: ERROR [conexion.py]:35 Ocurrio un error en la creacion de pool 
+10:21:44 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:21:44 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000022CF33D4BB0>
+10:21:44 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000022CF0EB3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:21:44 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:21:44 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000022CF0EB3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:23:09 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:23:10 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002BA520D2680>
+10:23:10 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002BA501E3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:23:10 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:23:10 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002BA501E3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:23:10 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:23:10 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:23:10 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002BA501E3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:23:10 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:23:10 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002BA501E3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:23:10 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 1
+costo: 9
+fechaini: 10/12/2022 
+costo: 01/09/2022 
+10:27:58 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:27:58 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F606A32680>
+10:27:58 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001F604B03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:27:58 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:27:58 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001F604B03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:27:58 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:27:58 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:27:58 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001F604B03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:27:58 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:27:58 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001F604B03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:27:58 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 1
+costo: 9
+fechaini: 10/12/2022 
+costo: 01/09/2022 
+10:27:58 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:30:04 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:30:04 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001E975092680>
+10:30:04 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001E9731A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:30:04 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:30:04 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001E9731A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:30:04 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:30:04 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:30:04 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001E9731A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:30:04 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:30:04 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001E9731A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:30:04 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 1
+costo: 9
+fechaini: 10/12/2022 
+costo: 01/09/2022 
+10:30:04 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:30:04 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:31:00 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:31:00 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000213F6D62680>
+10:31:00 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000213F4E53890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:31:00 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:31:00 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000213F4E53890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:31:00 AM: DEBUG [ContratoDao.py]:55 Contratos Actualizadas 1
+10:31:00 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:31:00 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000213F4E53890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:31:00 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:31:00 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000213F4E53890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:31:00 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:31:00 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:31:00 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:32:20 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:20 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001EB7D12A770>
+10:32:20 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:20 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:32:20 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:20 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:20 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [ContratoDao.py]:58 Contratos Eliminados 1
+10:32:20 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:20 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:20 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001EB7B223890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:20 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:32:20 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:32:20 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:32:43 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:43 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000025836DF2680>
+10:32:43 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000025834F03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:43 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:43 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000025834F03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:43 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:32:43 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:43 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000025834F03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:43 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:43 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000025834F03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:43 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:32:43 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:32:43 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:32:43 AM: DEBUG [ContratoDao.py]:62 id: 5
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:32:56 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:56 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001E30F24A770>
+10:32:56 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:56 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [ContratoDao.py]:51 Contratos Insertados 1
+10:32:56 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:56 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:56 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [ContratoDao.py]:58 Contratos Eliminados 1
+10:32:56 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:32:56 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:32:56 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001E30D363890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:32:56 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:32:56 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:32:56 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:32:56 AM: DEBUG [ContratoDao.py]:62 id: 6
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:33:29 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:33:29 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000012C057F2680>
+10:33:29 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000012C03903890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:29 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:33:29 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000012C03903890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:29 AM: DEBUG [ContratoDao.py]:58 Contratos Eliminados 1
+10:33:29 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:33:29 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000012C03903890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:29 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:33:29 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000012C03903890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:29 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:33:29 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:33:29 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:33:31 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:33:31 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000269AAB42680>
+10:33:31 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000269A8C23890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:31 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:33:31 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000269A8C23890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:31 AM: DEBUG [ContratoDao.py]:58 Contratos Eliminados 0
+10:33:31 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:33:31 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000269A8C23890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:31 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:33:31 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000269A8C23890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:33:31 AM: DEBUG [ContratoDao.py]:62 id: 1
+nocontrato: 9
+costo: 200
+fechaini: 10/01/2022 
+costo: 01/08/2022 
+10:33:31 AM: DEBUG [ContratoDao.py]:62 id: 2
+nocontrato: 2
+costo: 909
+fechaini: 02/12/2022 
+costo: 09/09/2023 
+10:33:31 AM: DEBUG [ContratoDao.py]:62 id: 3
+nocontrato: 3
+costo: 1000
+fechaini: 02/02/2022 
+costo: 09/04/2023 
+10:34:18 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:19 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000026E14AC4C70>
+10:34:19 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:19 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:34:19 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:19 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:19 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [PersonaDao.py]:55 Personas Actualizadas 1
+10:34:19 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:19 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:19 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [PersonaDao.py]:58 Personas Eliminadas 1
+10:34:19 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:19 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:19 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:19 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000026E129A3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:45 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:45 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002F1599B6500>
+10:34:45 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002F157AA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:45 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:45 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002F157AA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:45 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:34:45 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:34:45 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002F157AA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:45 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:34:45 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002F157AA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:34:45 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:35:21 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:21 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F912956500>
+10:35:21 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001F9106B3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:21 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:21 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001F9106B3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:21 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:35:21 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:21 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001F9106B3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:21 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:21 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001F9106B3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:21 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:35:21 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:35:30 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:30 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000021FEDF76500>
+10:35:30 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000021FEC073890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:30 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:30 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000021FEC073890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:30 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:35:30 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:30 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000021FEC073890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:30 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:30 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000021FEC073890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:30 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:35:30 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:35:30 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:35:43 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:43 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001C49F386500>
+10:35:43 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001C49D0C3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:43 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:43 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001C49D0C3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:43 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:35:43 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:35:43 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001C49D0C3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:43 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:35:43 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001C49D0C3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:35:43 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:35:43 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:35:43 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:35:43 AM: DEBUG [PersonaDao.py]:62 id: 5
+nombre: Lucia
+edad: 47correo: Lucia@outlook.com
+10:36:18 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:36:18 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000020550336500>
+10:36:18 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002054E423890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:18 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:36:18 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002054E423890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:18 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:36:18 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:36:18 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002054E423890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:18 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:36:18 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002054E423890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:18 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:36:18 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:36:18 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:36:18 AM: DEBUG [PersonaDao.py]:62 id: 5
+nombre: Lucia
+edad: 47correo: Lucia@outlook.com
+10:36:18 AM: DEBUG [PersonaDao.py]:62 id: 6
+nombre: Myriam
+edad: 21correo: Myriam@outlook.com
+10:36:27 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:36:27 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001302CC16500>
+10:36:27 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001302ACC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:27 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:36:27 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001302ACC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:27 AM: DEBUG [PersonaDao.py]:51 Personas Insertadas 1
+10:36:27 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:36:27 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001302ACC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:27 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:36:27 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001302ACC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: Persona
+edad: 20correo: persona@outlook.com
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 5
+nombre: Lucia
+edad: 47correo: Lucia@outlook.com
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 6
+nombre: Myriam
+edad: 21correo: Myriam@outlook.com
+10:36:27 AM: DEBUG [PersonaDao.py]:62 id: 7
+nombre: Aldo
+edad: 21correo: Aldo@outlook.com
+10:37:25 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:37:25 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001C40A1464D0>
+10:37:25 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001C407EA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:37:25 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:37:25 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001C407EA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:37:25 AM: DEBUG [PersonaDao.py]:55 Personas Actualizadas 1
+10:37:25 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:37:25 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001C407EA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:37:25 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:37:25 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001C407EA3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 2
+nombre: PersonaActualizada
+edad: 21correo: personaActualizada@outlook.com
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 5
+nombre: Lucia
+edad: 47correo: Lucia@outlook.com
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 6
+nombre: Myriam
+edad: 21correo: Myriam@outlook.com
+10:37:25 AM: DEBUG [PersonaDao.py]:62 id: 7
+nombre: Aldo
+edad: 21correo: Aldo@outlook.com
+10:38:00 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:38:00 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002B1D38864D0>
+10:38:00 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002B1D1983890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:38:00 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:38:00 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002B1D1983890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:38:00 AM: DEBUG [PersonaDao.py]:58 Personas Eliminadas 1
+10:38:00 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:38:00 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002B1D1983890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:38:00 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:38:00 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002B1D1983890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:38:00 AM: DEBUG [PersonaDao.py]:62 id: 3
+nombre: Juan
+edad: 21correo: Juan@outlook.com
+10:38:00 AM: DEBUG [PersonaDao.py]:62 id: 4
+nombre: Pepe
+edad: 30correo: Pepe@outlook.com
+10:38:00 AM: DEBUG [PersonaDao.py]:62 id: 5
+nombre: Lucia
+edad: 47correo: Lucia@outlook.com
+10:38:00 AM: DEBUG [PersonaDao.py]:62 id: 6
+nombre: Myriam
+edad: 21correo: Myriam@outlook.com
+10:38:00 AM: DEBUG [PersonaDao.py]:62 id: 7
+nombre: Aldo
+edad: 21correo: Aldo@outlook.com
+10:41:47 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:41:47 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000244D1B301C0>
+10:41:47 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000244CF613890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:41:47 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:41:47 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000244CF613890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:43:44 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:43:44 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001D02A7B1A20>
+10:43:44 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001D028513890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:43:44 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:43:44 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001D028513890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:43:44 AM: DEBUG [ContratoPersonaDao.py]:35 Relacion Insertada 1
+10:43:44 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:43:44 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001D028513890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:43:44 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:43:44 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001D028513890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:43:44 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:44:20 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:20 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002B0E3231A20>
+10:44:20 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002B0E0FC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:20 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:20 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002B0E0FC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:20 AM: DEBUG [ContratoPersonaDao.py]:35 Relacion Insertada 1
+10:44:20 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:20 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002B0E0FC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:20 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:20 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002B0E0FC3890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:20 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:44:20 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:44:30 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:30 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000147F3441A20>
+10:44:30 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000147F1543890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:30 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:30 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000147F1543890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:30 AM: DEBUG [ContratoPersonaDao.py]:35 Relacion Insertada 1
+10:44:30 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:30 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x00000147F1543890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:30 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:30 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x00000147F1543890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:30 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:44:30 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:44:30 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 5
+id persona: 3
+id contrato: 5
+10:44:41 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:41 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001B646A71A20>
+10:44:41 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001B644B73890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:41 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:41 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001B644B73890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:41 AM: DEBUG [ContratoPersonaDao.py]:35 Relacion Insertada 1
+10:44:41 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:41 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000001B644B73890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:41 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:41 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000001B644B73890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:41 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:44:41 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:44:41 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 5
+id persona: 3
+id contrato: 5
+10:44:41 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 6
+id persona: 3
+id contrato: 6
+10:44:56 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:56 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000024591901A20>
+10:44:56 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002458FA03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:56 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:56 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002458FA03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:35 Relacion Insertada 1
+10:44:56 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:44:56 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x000002458FA03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:56 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:44:56 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x000002458FA03890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 5
+id persona: 3
+id contrato: 5
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 6
+id persona: 3
+id contrato: 6
+10:44:56 AM: DEBUG [ContratoPersonaDao.py]:39 id de la relacion: 7
+id persona: 2
+id contrato: 7
+10:53:16 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:53:16 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000024F29AB1A20>
+10:53:16 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000024F27B93890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:16 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:53:16 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000024F27B93890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:36 Relacion Insertada 1
+10:53:16 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:53:16 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000024F27B93890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:16 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:53:16 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000024F27B93890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 5
+id persona: 3
+id contrato: 5
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 6
+id persona: 3
+id contrato: 6
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 7
+id persona: 2
+id contrato: 7
+10:53:16 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 8
+id persona: 1
+id contrato: 7
+10:53:21 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:53:21 AM: DEBUG [conexion.py]:32 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000021DFF931A20>
+10:53:21 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000021DFD693890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:21 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:53:21 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000021DFD693890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:36 Relacion Insertada 1
+10:53:21 AM: DEBUG [cursorDePool.py]:13 Inicio metodo with
+10:53:21 AM: DEBUG [conexion.py]:42 Conexion Obtenida: <connection object at 0x0000021DFD693890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:21 AM: DEBUG [cursorDePool.py]:19 Se ejecuta exit
+10:53:21 AM: DEBUG [conexion.py]:48 Conexion regresada: <connection object at 0x0000021DFD693890; dsn: 'user=postgres password=xxx dbname=Examen3 host=127.0.0.1 port=5432', closed: 0>
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 3
+id persona: 1
+id contrato: 3
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 4
+id persona: 1
+id contrato: 4
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 5
+id persona: 3
+id contrato: 5
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 6
+id persona: 3
+id contrato: 6
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 7
+id persona: 2
+id contrato: 7
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 8
+id persona: 1
+id contrato: 7
+10:53:21 AM: DEBUG [ContratoPersonaDao.py]:40 id de la relacion: 9
+id persona: 2
+id contrato: 7
